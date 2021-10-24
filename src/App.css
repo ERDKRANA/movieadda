@@ -1,0 +1,118 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list{
+  display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: cornsilk;
+}
+
+.car-img{
+  height: 450px;
+}
+
+.group-pic{
+  width: 300px;
+  height: 500px;
+}
+
+.right-sec{
+  padding-left: 50px;
+  padding-top: 50px;
+ 
+}
+.box-pic{
+  width: 100%;
+  height: 350px;
+}
+.sidenav-container{
+  background-color: #222222;
+  color: blanchedalmond;
+  max-width: 200px;
+  min-width: 200px;
+  padding: 10px 10px;
+  height: calc(100vh - 60px);
+
+}
+
+.side-nav-list{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  margin: 10px 0px;
+  font-size: 12px;
+}
+
+.side-nav-list:hover{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid greenyellow;
+  background-color: rgb(44, 219, 44);
+  color: #000;
+  margin: 10px 0px;
+  font-size: 12px;
+}
+.side-nav-list-active{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid greenyellow;
+  background-color: rgb(44, 219, 44);
+  color: #ffffff;
+  margin: 10px 0px;
+  font-size: 12px;
+}
+.table-back{
+background-color:rgb(200, 255, 0);
+}
+.table-b{
+  background-color:aqua ;
+  padding: 5px;
+  border-radius:15px;
+}
+.movie-pic{
+  width: 100%;
+  height: 350px;
+}
+
+.movie-pic:hover{
+  width: 105%;
+  height: 370px;
+}
+.container-fluid{
+  height:auto;
+  text-align:auto;
+}
+
