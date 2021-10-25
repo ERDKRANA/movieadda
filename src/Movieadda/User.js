@@ -6,7 +6,6 @@ class User extends Component {
       show: false,
     };
   }
-
   handleShowModal = () => {
     this.setState({ show: true });
   };
